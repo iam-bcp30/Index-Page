@@ -1,0 +1,178 @@
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.pageTopic {
+    padding: 40px;
+}
+
+.my-common-items {
+    height: 117px;
+}
+
+.myCardContainer {
+    margin-bottom: 40px;
+}
+
+.myCardMargin {
+    margin-bottom: 40px;
+}
+
+.myCardBackground {
+    background-color: #dddddd;
+}
+
+
+
+.myIndexAlphabet {
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    color: #3A91BB;
+    text-decoration: underline;
+}
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/* -- ------------ --
+   -- CSS / STYLES --
+   -- ------------ -- */
+/* Global Reset */
+h1, h2, h3, h4, p {
+    margin: 0px !important;
+}
+/* ---------------------------------------- */
+/* --    Main Colors    --
+Dark Cerulean           Deep Space Sparkle                
+#02437B                 #465F75                 
+Pale Cerulean           Lavender Gray 
+#98C1D9                 #BECBD2
+Stil de Grain Yellow    Flax
+#FADF63                 #E9D88A
+Mountain Meadow         Green Sheen
+#2FD09A                 #5EBF9F
+--------------------
+white                   Soft White
+#FFFFFF                 #F6F6F6
+Gray 1                  Gray 2
+#EEEEEE                 #DDDDDD
+Med. Gray 1             Med. Gray 2
+#BBBBBB                 #8888888
+Dark Gray 1             Dark Gray 2             Charcoal
+#777777                 #454545                 #333635
+*/
+/* ---------------------------------------- */
+/* -- Colors applied to text and backgrounds --
+/* dark-mode background color */
+.background-dark { background-color: #465F75;}
+/* light-mode background color */
+.background-light { background-color: #F6F6F6;}
+/* dark color for heading elements - hierachy - light background */
+.title-color-dark { color:#333635; }
+/* dark color for sub elements - hierachy - light background */
+.text-color-dark { color: #454545;}
+/* light color for heading elements - hierachy - dark background */
+.title-color-light { color: #F6F6F6;}
+/* light color for sub elements - hierachy - dark background */
+.text-color-light { color: #F6F6F6;}
+/* warning color - highlight for instructions */
+.highlighter { background-color: #FADF63;}
+/* isolation color - normal state */
+.isolation-color { color: #2FD09A;}
+/* isolation color - hover state */
+.hover-color { color: #5EBF9F;}
+/* placeholder text color */
+.placeholder-color { color: #BBBBBB;}
+/* global border radius */
+.recycle-borders { border-radius: 4px;}
+/* page title */
+.page-title {
+    font-family: Acumin Pro;
+    font-size: 54px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 58px;
+}
+/* -- ------------ --
+   --   HOMEPAGE   --
+   -- ------------ -- */
+/* homepage title */
+.homepage-title {
+    font-family: Bungee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+}
+/* homepage subtitle */
+.homepage-subtitle {
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+}
+/* placeholder text */
+.placeholder-text {
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
