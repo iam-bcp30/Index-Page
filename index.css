@@ -24,12 +24,10 @@ h3 {
     background-color: #dddddd;
 }
 
-
-
 .myIndexAlphabet {
     font-size: 27px;
-    font-weight: bold;
-    color: black;
+    font-weight: 700;
+    color: #333635;
     text-decoration: none;
 }
 
@@ -98,8 +96,34 @@ li {
    -- ------------ -- */
 /* Global Reset */
 h1, h2, h3, h4, p {
-    margin: 0px !important;
+    margin: 0px !important; 
+    line-height: 125% !important;
 }
+/* page title - recycle matters h1 */
+.recycle-h1 {
+    font-family: Acumin Pro;
+    font-weight: 700; 
+    font-size: 46px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.recycle-h2 {
+    font-family: Acumin Pro;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.recycle-h3 {
+    font-family: Acumin Pro;
+    font-weight: 500;
+    font-size: 18px;
+}
+.thumbnail-title {
+    font-size: 14px;
+    font-weight: 200;
+}
+/* global border radius */
+.recycle-borders { border-radius: 4px;}
 /* ---------------------------------------- */
 /* --    Main Colors    --
 Dark Cerulean           Deep Space Sparkle                
@@ -130,6 +154,8 @@ Dark Gray 1             Dark Gray 2             Charcoal
 .title-color-dark { color:#333635; }
 /* dark color for sub elements - hierachy - light background */
 .text-color-dark { color: #454545;}
+/* map text color for better hierarchy */
+.map-text-color-dark { color: #777777;}
 /* light color for heading elements - hierachy - dark background */
 .title-color-light { color: #F6F6F6;}
 /* light color for sub elements - hierachy - dark background */
@@ -142,16 +168,6 @@ Dark Gray 1             Dark Gray 2             Charcoal
 .hover-color { color: #5EBF9F;}
 /* placeholder text color */
 .placeholder-color { color: #BBBBBB;}
-/* global border radius */
-.recycle-borders { border-radius: 4px;}
-/* page title */
-.page-title {
-    font-family: Acumin Pro;
-    font-size: 54px;
-    font-weight: bold;
-    padding-top: 90px;
-    padding-bottom: 58px;
-}
 /* -- ------------ --
    --   HOMEPAGE   --
    -- ------------ -- */
@@ -160,19 +176,18 @@ Dark Gray 1             Dark Gray 2             Charcoal
     font-family: Bungee;
     font-style: normal;
     font-weight: normal;
-    font-size: 55px;
+    font-size: 46px;
+    margin-top: 50%;
 }
 /* homepage subtitle */
 .homepage-subtitle {
     font-family: Acumin Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
+    font-weight: 300;
+    font-size: 20px;
 }
 /* placeholder text */
 .placeholder-text {
     font-family: Acumin Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 14px;
 }
